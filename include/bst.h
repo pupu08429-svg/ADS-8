@@ -52,9 +52,9 @@ class BST {
 
   int computeHeight(Vertex* v) const {
     if (v == nullptr) {
-      return 0;
+      return -1;
     }
-    return std::max(computeHeight(v->leftVertex),
+    return 1+ std::max(computeHeight(v->leftVertex),
                         computeHeight(v->rightVertex));
   }
 

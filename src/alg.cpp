@@ -6,6 +6,7 @@
 #include <vector>
 #include <algorithm>
 #include <cctype>
+#include <utility>
 #include "bst.h"
 
 bool isLatinLetter(char c) {
